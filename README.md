@@ -30,3 +30,6 @@ A simple command-line interface for managing tasks. This tool allows you to add,
 Run the script with the `main.py` file.
 
 Additional details added.
+
+
+Additional details added.
