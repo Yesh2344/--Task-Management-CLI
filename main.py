@@ -56,6 +56,7 @@ def main():
     elif args.command == "delete":
         try:
             task_manager.delete_task(args.task_id)
+# Added comment
             print(Fore.GREEN + "Task deleted successfully!" + Style.RESET_ALL)
         except ValueError as e:
             print(Fore.RED + str(e) + Style.RESET_ALL)
