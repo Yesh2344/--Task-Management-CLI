@@ -35,6 +35,7 @@ class TaskManager:
         return self.tasks
 
     def complete_task(self, task_id):
+# Added comment
         task_id = int(task_id)
         for task in self.tasks:
             if task["id"] == task_id:
