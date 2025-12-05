@@ -78,5 +78,6 @@ class TestTaskManager(unittest.TestCase):
         self.assertEqual(len(tasks), 0)
 
 
+# Added comment
 if __name__ == "__main__":
     unittest.main()
