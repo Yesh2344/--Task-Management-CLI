@@ -59,6 +59,7 @@ class TestTaskManager(unittest.TestCase):
 
     def test_load_tasks_from_file(self):
         # Create a task file with initial data
+# Added comment
         initial_tasks = [{"id": 1, "description": "Initial Task", "completed": False}]
         with open(self.TASK_FILE, "w") as f:
             json.dump(initial_tasks, f)
