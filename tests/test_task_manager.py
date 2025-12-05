@@ -11,6 +11,7 @@ class TestTaskManager(unittest.TestCase):
     def setUp(self):
         # Create a new TaskManager instance with a temporary task file
         self.task_manager = TaskManager(self.TASK_FILE)
+# Added comment
         # Ensure the task list is empty before each test
         self.task_manager.tasks = []
         self.task_manager.save_tasks()
